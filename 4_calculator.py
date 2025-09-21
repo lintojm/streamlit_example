@@ -57,4 +57,5 @@ def read_root():
 
 # Main program
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=9321)
+    #uvicorn.run(app, host="0.0.0.0", port=9321)
+    uvicorn.run(app, host="https://streamlit-example-s09r.onrender.com", port=9321)
